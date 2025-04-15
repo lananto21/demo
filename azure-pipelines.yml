@@ -6,7 +6,8 @@
 trigger:
 - main
 
-pool: demo2
+pool: 
+  name: 'sample'
 
 steps:
 - task: Maven@4
